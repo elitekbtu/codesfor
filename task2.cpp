@@ -13,7 +13,6 @@ void Print(int n, char c) {
 int main() {
     int n;
     char c;
-    cout<<"Сан және символ енгізіңіз: ";
     cin>>n>>c;
     Print(n, c);
     return 0;

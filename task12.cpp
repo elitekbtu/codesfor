@@ -21,8 +21,7 @@ void PrintPrimes(int p) {
 
 int main(){
     int num; 
-    cout<<"P санның еңгізіңіз: ";
     cin>>num; 
-    cout<<"P caнына дейінгі жәй сандар:"<<endl;
+    PrintPrimes(num);
 }
 

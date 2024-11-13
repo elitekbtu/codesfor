@@ -9,9 +9,7 @@ void PrintMultiplicationTable(int num) {
 
 int main() {
     int num;
-    cout<<"Санды еңгізіңіз: ";
     cin>>num;
-    cout<<"Көбеййту кестесі: "<<endl;
     PrintMultiplicationTable(num);
     return 0;
 }

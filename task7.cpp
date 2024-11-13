@@ -8,8 +8,7 @@ int PowerA(int A, int B) {
 
 int main() {
     int A, B;
-    cout<<"Негіз және дәреже енгізіңіз: ";
     cin>>A>>B;
-    cout<<A<<"-дің "<<B<<"-ге дәрежесі: "<<PowerA(A, B)<<endl;
+    cout<<PowerA(A, B)<<endl;
     return 0;
 }

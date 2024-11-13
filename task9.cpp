@@ -12,8 +12,7 @@ double Area(double a) {
 
 int main() {
     double a;
-    cout<<"Теңқабырғалы үшбұрыштың қабырғасының ұзындығын енгізіңіз: ";
     cin>>a;
-    cout<<"Периметрі: "<<Perimeter(a)<<", Ауданы: "<<Area(a)<<endl;
+    cout<<Perimeter(a)<<Area(a)<<endl;
     return 0;
 }

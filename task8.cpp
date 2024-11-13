@@ -12,8 +12,7 @@ double GMean(int A, int B) {
 
 int main() {
     int A, B;
-    cout<<"Екі бүтін сан енгізіңіз: ";
     cin>>A>>B;
-    cout<<"Арифметикалық орташа мәні: "<<AMean(A, B)<<", Геометриялық орташа мәні: "<<GMean(A, B)<<endl;
+    cout<<AMean(A, B)<<GMean(A, B)<<endl;
     return 0;
 }

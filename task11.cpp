@@ -10,7 +10,6 @@ bool IsPrime(int num) {
 }
 
 int main() {
-    cout<<"Үш таңбалы жай сандар: ";
     for (int i=100; i<=999; i++) {
         if (IsPrime(i)){
             cout<<i<<" ";

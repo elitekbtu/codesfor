@@ -17,8 +17,7 @@ int Min(int A, int B) {
 
 int main() {
     int A, B;
-    cout<<"Екі бүтін сан енгізіңіз: ";
     cin>>A>>B;
-    cout<<"Ең үлкені: "<<Max(A, B)<<", Ең кішісі: "<<Min(A, B)<<endl;
+    cout<<Max(A, B)<<Min(A, B)<<endl;
     return 0;
 }

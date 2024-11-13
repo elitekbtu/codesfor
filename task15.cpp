@@ -11,8 +11,7 @@ int SumRange(int A, int B) {
 
 int main() {
     int A, B;
-    cout << "Екі бүтін санды енгізіңіз: ";
     cin>>A>>B;
-    cout<<"Суммасы"<<SumRange(A, B)<<endl;
+    cout<<SumRange(A, B)<<endl;
     return 0;
 }

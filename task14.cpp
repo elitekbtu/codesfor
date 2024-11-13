@@ -14,8 +14,7 @@ int Calc(int A, int B, char Op) {
 int main() {
     int A, B;
     char Op;
-    cout << "Екі бүтін санды және операторды енгізіңіз: ";
     cin>>A>>B>>Op;
-    cout<<"Жауабы: "<<Calc(A, B, Op)<<endl;
+    cout<<Calc(A, B, Op)<<endl;
     return 0;
 }

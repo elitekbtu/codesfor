@@ -10,7 +10,6 @@ void PrintStr(int n, string str) {
 int main() {
     int n;
     string str;
-    cout<<"Сан және жол енгізіңіз: ";
     cin>>n>>str;
     PrintStr(n, str);
     return 0;
